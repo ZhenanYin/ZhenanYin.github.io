@@ -17,4 +17,5 @@ My research interest includes Machine Learning, Computer Vision, Biomedical/Heal
 You can find my CV here: [Zhenan Yin's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 [Email](mailto:yinzhenan95@163.com) / [Github](https://github.com/ZhenanYin) 
+
 ————————————————
