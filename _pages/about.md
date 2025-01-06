@@ -7,11 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I have graduated from [Jacobs School of Engineering](https://jacobsschool.ucsd.edu/), [University of California, San Diego](https://ucsd.edu/). My research interest includes computer vision, computer graphics, machine learning, and computational photography.
+Welcome to my homepage! 
+I am currently a DICT (Data, Information, Communication, Technology) Project Solution Manager at **China Mobile Communications Group Yunnan Co.**, Ltd. working on **healthcare digitization** projects for various medical institutions. 
 
-I am very fortunate to be advised by [Prof. XXX](https://www.XXX.com/) of XXX Lab from [School of Computer Science](https://cs.pku.edu.cn/), Peking University. I was advised by [Prof. XX](https://XXX.pku.edu.cn/) from [School of Computer Science](https://cs.pku.edu.cn/), Peking University.
+I received my B.S. in **Electrical Engineering** with a foucs on **Machine Learning and Controls** from the **University of California, San Diego** in 2019. 
+Throughout my undergraduate journey, I was an **undergraduate research assistant** in [Statistical Visual Computing Lab (SVCL)](http://www.svcl.ucsd.edu/), advised by Prof. [Nuno Vasconcelos](https://jacobsschool.ucsd.edu/people/profile/nuno-vasconcelos), working on developing a plankton image labeling and retrieval system using Deep Learning methods for the Scripps Plankton Camera System (SPCS) project, a collaboration with the Scripps Institution of Oceanography. I also worked as an **undergraduate research assistant** in [Xu Research Group](https://xugroup.eng.ucsd.edu/), under the guidance of Prof. [Sheng Xu](https://jacobsschool.ucsd.edu/people/profile/sheng-xu), contributed to the publication of [**Monitoring of the Central Blood Pressure Waveform via a Conformal Ultrasonic Device**](https://www.nature.com/articles/s41551-018-0287-x) in **Nature Biomedical Engineering**.
+My research interest includes Machine Learning, Computer Vision, Biomedical/Health Informatics, as well as Medical Imaging and Electronic Health Record (EHR) Analysis.
 
-You can find my CV here: [XX's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+You can find my CV here: [Zhenan Yin's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Email](mailto:XX@stu.pku.edu.cn) / [Github](https://github.com/QiuDi233) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/qd1813100174?spm=1000.2115.3001.5343)
+[Email](mailto:yinzhenan95@163.com) / [Github](https://github.com/ZhenanYin) 
 ————————————————
