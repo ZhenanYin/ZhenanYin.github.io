@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhenan (David) Yin / Personal Homepage"
+title                    : "Zhenan (David) Yin / 尹喆楠"
 title_separator          : "-"
 name                     : &name "Zhenan (David) Yin"
 description              : &description "DICT Project Solution Manager at China Mobile Yunnan, graduated from UC San Diego"
@@ -26,7 +26,7 @@ author:
   pronouns         : "He/Him"  
   bio              : "University of California, San Diego"
   location         : "Kunming, China"
-  employer         : "China Mobile Yunnan"
+  employer         : #"China Mobile Yunnan"
   uri              : # URL
   email            : "yinzhenan95@163.com" 
 
