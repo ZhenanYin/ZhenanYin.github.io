@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Welcome to my homepage! 
-I am currently a DICT (Data, Information, Communication, Technology) Project Solution Manager at **China Mobile Communications Group Yunnan Co.**, Ltd. working on **healthcare digitization** projects for various medical institutions. 
+I am currently a DICT (Data, Information, Communication, Technology) Project Solution Manager at **China Mobile Communications Group Yunnan Co., Ltd.** working on **healthcare digitization** projects for various medical institutions. 
 
 I received my B.S. in **Electrical Engineering** with a foucs on **Machine Learning and Controls** from the **University of California, San Diego** in 2019. 
 
