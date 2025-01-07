@@ -5,6 +5,10 @@ permalink: /education/
 author_profile: true
 ---
 
-## Journal Article
-![Alt text](../images/publication1.png){: width="250" height="250"}
-- Chonghe Wang, Xiaoshi Li, Hongjie Hu, Lin Zhang, Zhenlong Huang, Muyang Lin, Zhuorui Zhang, **Zhenan Yin**, Brady Huang, Hua Gong, Shubha Bhaskaran, Yue Gu, Mitsutoshi Makihata, Yuxuan Guo, Yusheng Lei, Yimu Chen, Chunfeng Wang, Yang Li, Tianjiao Zhang, Zeyu Chen, Albert P. Pisano, Liangfang Zhang, Qifa Zhou, Sheng Xu. [Monitoring of the central blood pressure waveform via a conformal ultrasonic device](https://www.nature.com/articles/s41551-018-0287-x). **Nature Biomedical Engineering**, 2019.
+## University of California, San Diego
+![Alt text](../images/UCSD_logo.png){: width="100" height="100"}
+- **B.S.** in **Electrical Engineering**, Machine Learning and Controls Depth
+  > Sep. 2016 - Jun. 2019
+- **Undergraduate Research Assistant** in:
+  > [Statistical Visual Computing Lab (SVCL)](http://www.svcl.ucsd.edu/), advised by Prof. [**Nuno Vasconcelos**](https://jacobsschool.ucsd.edu/people/profile/nuno-vasconcelos)
+  > [Xu Research Group](https://xugroup.eng.ucsd.edu/), advised by Prof. [**Sheng Xu**](https://jacobsschool.ucsd.edu/people/profile/sheng-xu)
