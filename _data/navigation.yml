@@ -6,7 +6,7 @@
 
 main:
   - title: "Education"
-    url: /educations/
+    url: /education/
 
   - title: "Research Experiences"
     url: /research_experiences/
