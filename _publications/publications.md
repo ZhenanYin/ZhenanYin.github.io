@@ -3,7 +3,12 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
- 
+<section id="project" class="publication-section">
+  <div class="container">
+    <h2>Projects</h2>
+    <hr>
+    <div class="spacer"></div>
+	  
  <div class="row item">
           <div class="col-md-4 col-sm-6 col-xs-12 item-img">
             <a class="image-popup-no-margins">
