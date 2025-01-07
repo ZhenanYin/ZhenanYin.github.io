@@ -1,3 +1,9 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+ 
  <div class="row item">
           <div class="col-md-4 col-sm-6 col-xs-12 item-img">
             <a class="image-popup-no-margins">
