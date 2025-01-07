@@ -1,7 +1,7 @@
  <div class="row item">
           <div class="col-md-4 col-sm-6 col-xs-12 item-img">
             <a class="image-popup-no-margins">
-              <img width="100%" src="./images/publication1.png" class="img-thumbnail img-responsive">
+              <img width="100%" src="../images/publication1.png" class="img-thumbnail img-responsive">
             </a>
           </div>
           <div class="col-md-8 col-sm-6 col-xs-12 item-info">
