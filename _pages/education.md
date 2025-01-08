@@ -15,7 +15,6 @@ author_profile: true
   > [Xu Research Group](https://xugroup.eng.ucsd.edu/), advised by Prof. [**Sheng Xu**](https://jacobsschool.ucsd.edu/people/profile/sheng-xu)
 
 ## De Anza College
-Cupertino CA
-![Alt text](../images/De_Anza_logo.png){: width="120" height="115"}
+![Alt text](../images/De_Anza_logo.png){: width="120" height="115"} Cupertino CA
 - Liberal Arts-Science, Math & Engineering
   > Aug. 2013 - Aug. 2016
