@@ -14,7 +14,6 @@ author_profile: true
   
   > [Xu Research Group](https://xugroup.eng.ucsd.edu/), advised by Prof. [**Sheng Xu**](https://jacobsschool.ucsd.edu/people/profile/sheng-xu)
 
-- **Major Courses** : Pattern Recognition and Machine Learning; Intelligent System; Linear & Non-linear Optimization; Linear Control System Theory; Engineering Computation; Probability and Random Processes for Engineers; Engineering Probability & Statistics; Vector Calculus; Programming in MATLAB; Relativity & Quantum Physics.
 ---
 
 ## De Anza College
@@ -22,4 +21,3 @@ author_profile: true
 - Liberal Arts-Science, Math & Engineering
   > Aug. 2013 - Aug. 2016
 
-- **Major Courses** : Linear Algebra; Differential Equations; Calculus; Statistics & Probability; Programming Method C++; Physics; General chemistry; Introduction to Biology; Environmental Biology.
