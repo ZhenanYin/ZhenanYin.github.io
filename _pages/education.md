@@ -13,12 +13,9 @@ author_profile: true
   > [Statistical Visual Computing Lab (SVCL)](http://www.svcl.ucsd.edu/), advised by Prof. [**Nuno Vasconcelos**](https://jacobsschool.ucsd.edu/people/profile/nuno-vasconcelos)
   
   > [Xu Research Group](https://xugroup.eng.ucsd.edu/), advised by Prof. [**Sheng Xu**](https://jacobsschool.ucsd.edu/people/profile/sheng-xu)
+---
 
-<div style="display: flex; align-items: center;">
-  <img src="../images/De_Anza_logo.png" alt="De Anza College Logo" width="120" height="115" style="margin-right: 10px;">
-  <span><b>De Anza College<b/></span>
-</div>
-
-
+## De Anza College
+![Alt text](../images/De_Anza_logo.png){: width="120" height="120"}
 - Liberal Arts-Science, Math & Engineering
   > Aug. 2013 - Aug. 2016
