@@ -8,6 +8,8 @@ author_profile: true
 ---
 ### The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
 
+![Alt text](../images/summer_research.png){: width="150" height="225"}
+
 ---
 ### Triton Town Autonomous Vehicle
 
