@@ -41,6 +41,17 @@ Please refer to my **CV** for more details: [Zhenan Yin's Curriculum Vitae](../a
 
 # Research Experiences
 
+Please refer to [Research Experiences] section on the navigation bar for more details.
+
+- The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
+  - University of Cambridge, Pembroke College      _July 1st - July 28th, 2024_
+  - Advised by [Dr. Bridget P. Bannerman](https://crukcambridgecentre.org.uk/users/bpc2814870) and [Prof. Jorge Júlvez](https://webdiis.unizar.es/~julvez/)
+  
+- Triton Town Autonomous Vehicle
+- Plankton Image Labeling and Retrieval System Using Deep Learning
+- Conformal Ultrasonic Device for Central Blood Pressure Waveform Monitoring
+- Control System Project - The Vending Machine
+
 ---
 
 # Professional Experiences
