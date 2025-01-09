@@ -8,7 +8,7 @@ author_profile: true
 ---
 ### The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
 
-![Alt text](../images/summer_research.png){: width="150" height="225"}
+![Alt text](../images/summer_research.png){: width="250" height="325"}
 
 - University of Cambridge - Pembroke College, _July 1st - July 28th,2024_
 - Advised by [**Dr. Bridget P. Bannerman**](https://crukcambridgecentre.org.uk/users/bpc2814870) and [**Prof. Jorge Júlvez**](https://webdiis.unizar.es/~julvez/)
