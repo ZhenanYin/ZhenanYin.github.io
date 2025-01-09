@@ -22,4 +22,4 @@ author_profile: true
 
 ---
 ### Emergency Department Volunteer
-![Alt text](../images/hospital.png){: width="150" height="65"}
+![Alt text](../images/hospital.png){: width="150" height="90"}
