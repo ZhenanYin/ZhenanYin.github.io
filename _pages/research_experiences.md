@@ -71,7 +71,7 @@ author_profile: true
 
 ---
 ### Control System Project - The Vending Machine
-![Alt text](../images/Machine.png){: width="250" height="350"}
+![Alt text](../images/Machine.png){: width="250" height="325"}
 
 - University of California, San Diego, _April 2018 - June 2018_
 - Advised by [**Alex Phan, Ph.D.**](https://jacobsschool.ucsd.edu/idea/about/staff/phan) 
