@@ -70,12 +70,12 @@ Please refer to `Research Experiences` section on the navigation bar for more de
 Please refer to `Professional Experiences` section on the navigation bar for more details.
 
 - **DICT Project Solution Team Lead**
-![Alt text](../images/China_Mobile.png){: width="120" height="120"}
+![Alt text](../images/China_Mobile.png){: width="150" height="35"}
   - China Mobile Communications Group Yunnan Co., Ltd., _March 1st, 2024 - Present_
   - Noteworthy In-Progress Projects: Internet Hospital of Yunnan Province.
  
 - **DICT Project Solution Manager**
-![Alt text](../images/China_Mobile.png){: width="120" height="120"}
+![Alt text](../images/China_Mobile.png){: width="150" height="35"}
   - China Mobile Communications Group Yunnan Co., Ltd. Kunming Branch, _March 1st, 2021 - February 29th, 2024_
   - Noteworthy Completed Projects:
     * Yunnan Third People's Hospital 5G Mobile Nursing Construction Project
@@ -87,6 +87,11 @@ Please refer to `Professional Experiences` section on the navigation bar for mor
 ---
 
 # Publications
+
+- [Google Scholar](https://scholar.google.ca/citations?user=EPNkqd0AAAAJ&hl=en)
+
+![Alt text](../images/publication1.png){: width="200" height="200"}
+- Chonghe Wang, X. Li, H. Hu, L. Zhang, Z. Huang, M. Lin, Z. Zhang, **Zhenan Yin**, B. Huang, H. Gong, S. Bhaskaran, Y. Gu, M. Makihata, Y. Guo, Y. Lei, Y. Chen, C. Wang, Y. Li, T. Zhang, Z. Chen, A. Pisano, L. Zhang, Q. Zhou, Sheng Xu. [Monitoring of the central blood pressure waveform via a conformal ultrasonic device](https://www.nature.com/articles/s41551-018-0287-x). **Nature Biomedical Engineering**, Sep. 2018. PMID: 30906648; PMCID: PMC6428206.
 
 ---
 
