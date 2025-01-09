@@ -19,6 +19,4 @@ I also worked as an **undergraduate research assistant** in [Xu Research Group](
 
 Please refer to my **CV** for more details: [Zhenan Yin's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
-[Email](mailto:yinzhenan95@163.com) / [Github](https://github.com/ZhenanYin) 
-
 ---
