@@ -19,7 +19,7 @@ author_profile: true
 
 ---
 ### Student Police Aid
-![Alt text](../images/De_Anza_logo.png){: width="150" height="65"}
+![Alt text](../images/De_Anza_logo.png){: width="150" height="45"}
 
 ---
 ### Emergency Department Volunteer
