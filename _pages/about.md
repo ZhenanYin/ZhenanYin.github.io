@@ -20,3 +20,25 @@ I also worked as an **undergraduate research assistant** in [Xu Research Group](
 Please refer to my **CV** for more details: [Zhenan Yin's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 ---
+
+# Education
+
+---
+
+# Research Experiences
+
+---
+
+# Professional Experiences
+
+---
+
+# Publications
+
+---
+
+# Achievements
+
+---
+
+# Gallery
