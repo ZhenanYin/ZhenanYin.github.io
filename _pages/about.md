@@ -43,29 +43,46 @@ Please refer to my **CV** for more details: [Zhenan Yin's Curriculum Vitae](../a
 
 Please refer to `Research Experiences` section on the navigation bar for more details.
 
-- The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
-  - University of Cambridge, Pembroke College      _July 1st - July 28th, 2024_
+- **The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression**
+  - University of Cambridge - Pembroke College, _July 1st - July 28th, 2024_
   - Advised by [Dr. Bridget P. Bannerman](https://crukcambridgecentre.org.uk/users/bpc2814870) and [Prof. Jorge Júlvez](https://webdiis.unizar.es/~julvez/)
   
-- Triton Town Autonomous Vehicle
-  - University of California, San Diego      _Feb. 2019 - Jun. 2019_
+- **Triton Town Autonomous Vehicle**
+  - University of California, San Diego, _Feb. 2019 - Jun. 2019_
   - Advised by [Associate Prof. Maurício de Oliveira](https://jacobsschool.ucsd.edu/people/profile/mauricio-de-oliveira) and [Associate Prof. Jack Silberman](https://jacobsschool.ucsd.edu/cosmos/jack-silberman)
     
-- Plankton Image Labeling and Retrieval System Using Deep Learning
-  - University of California, San Diego      _Nov. 2017 - May 2019_
+- **Plankton Image Labeling and Retrieval System Using Deep Learning**
+  - University of California, San Diego, _Nov. 2017 - May 2019_
   - **Undergraduate Research Assistant** in [Statistical Visual Computing Lab (SVCL)](http://www.svcl.ucsd.edu/), advised by [Prof. Nuno Vasconcelos](https://jacobsschool.ucsd.edu/people/profile/nuno-vasconcelos)
 
-- Conformal Ultrasonic Device for Central Blood Pressure Waveform Monitoring
-  - University of California, San Diego      _May 2017 - Dec. 2018_
+- **Conformal Ultrasonic Device for Central Blood Pressure Waveform Monitoring**
+  - University of California, San Diego, _May 2017 - Dec. 2018_
   - **Undergraduate Research Assistant** in [Xu Research Group](https://xugroup.eng.ucsd.edu/), advised by [Prof. Sheng Xu](https://jacobsschool.ucsd.edu/people/profile/sheng-xu)
     
-- Control System Project - The Vending Machine
-  - University of California, San Diego      _Apr. 2018 - Jun. 2018_
+- **Control System Project - The Vending Machine**
+  - University of California, San Diego, _Apr. 2018 - Jun. 2018_
   - Advised by [Alex Phan, Ph.D.](https://jacobsschool.ucsd.edu/idea/about/staff/phan)
 
 ---
 
 # Professional Experiences
+
+Please refer to `Professional Experiences` section on the navigation bar for more details.
+
+- **DICT Project Solution Team Lead**
+![Alt text](../images/China_Mobile.png){: width="120" height="120"}
+  - China Mobile Communications Group Yunnan Co., Ltd., _March 1st, 2024 - Present_
+  - Noteworthy In-Progress Projects: Internet Hospital of Yunnan Province.
+ 
+- **DICT Project Solution Manager**
+![Alt text](../images/China_Mobile.png){: width="120" height="120"}
+  - China Mobile Communications Group Yunnan Co., Ltd. Kunming Branch, _March 1st, 2021 - February 29th, 2024_
+  - Noteworthy Completed Projects:
+    * Yunnan Third People's Hospital 5G Mobile Nursing Construction Project
+    * Healthcare 2.0 Development Plan
+    * 5G Medical Insurance Network Project
+    * VPDN Medical Insurance Account Management Software
+    * Integrated Precision Dispatch Rescue System Construction
 
 ---
 
