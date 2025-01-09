@@ -15,6 +15,7 @@ author_profile: true
 
 ---
 ### Lab Assistant (volunteer)
+![Alt text](../images/UCSD_JSOE.png){: width="150" height="65"}
 
 ---
 ### Student Police Aid
