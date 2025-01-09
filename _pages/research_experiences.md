@@ -6,17 +6,17 @@ author_profile: true
 ---
 
 ---
-## The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
+### The Connection Between Mtb and Macrophage Cells in Lung Cancer Progression
 
 ---
-## Triton Town Autonomous Vehicle
+### Triton Town Autonomous Vehicle
 
 ---
-## Plankton Image Labeling and Retrieval System Using Deep Learning
+### Plankton Image Labeling and Retrieval System Using Deep Learning
 
 ---
-## Conformal Ultrasonic Device for Central Blood Pressure Waveform Monitoring
+### Conformal Ultrasonic Device for Central Blood Pressure Waveform Monitoring
 
 ---
-## Control System Project - The Vending Machine
+### Control System Project - The Vending Machine
 
