@@ -6,6 +6,13 @@
           <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
             <table class="table-cv">
               <tbody>
+                {% if content.image %}
+                  <tr>
+                    <td style="padding-bottom: 0.5rem;">
+                      <img src="{{ content.image | prepend: 'assets/img/' | relative_url }}" alt="{{ content.institution }}" style="max-width: 75px; max-height: 75px; object-fit: contain;">
+                    </td>
+                  </tr>
+                {% endif %}
                 <tr>
                   <td>
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">

@@ -2,96 +2,203 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zhenan Yin
+    - name: Email
+      value: yin10@iu.edu
     - name: Languages
-      value: English, German
+      value: English, Chinese (Mandarin)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Health and Biomedical Informatics
+      institution: Indiana University Indianapolis, IN, USA
+      year: 2025 - Present
+      image: Indiana_Hoosiers_logo.svg
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisor Dr. Saptarshi Purkayastha, Purkayastha Lab for Health Innovation 
+        - Research focus on Medical AI, Multimodal Learning, and Medical Signal Processing
 
-- title: Experience
+    - title: Bachelor of Science in Electrical Engineering
+      institution: University of California, San Diego, CA, USA
+      year: 2016 - 2019
+      image: ucsd-seal.svg
+      description:
+        - Concentration in Machine Learning and Controls
+        - Research Assistant in Statistical Visual Computing Lab, advised by Prof. Nuno Vasconcelos
+        - Research Assistant in Xu Research Group, advised by Prof. Sheng Xu
+
+    - title: Liberal Arts (Science, Math, and Engineering Emphasis)
+      institution: De Anza College, Cupertino, CA, USA
+      year: 2013 - 2016
+      image: 33656.png
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Purkayastha Lab for Health Innovation (PLHI), Indiana University Indianapolis
+      year: 2025 - Present
+      image: Indiana_Hoosiers_logo.svg
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advised by Prof. Saptarshi Purkayastha
+        - Embeddings are Noise Eliminators - Ablation Studies to Show What is Eliminated in Foundation Models
+        - Multimodal Model for Activity Recognition in Parkinson's and Non-Parkinson's Individuals Using Biological Sensors
+        - CrossSeizure - Learning Generalizable Representations for Cross-Dataset Epileptic Seizure Classification
+
+    - title: Summer Research Assistant
+      institution: Pembroke College, University of Cambridge, UK
+      year: 2024
+      image: Pembroke.png
       description:
-        - Description 1.
-        - Description 2.
+        - Advised by Dr. Bridget Bannerman & Prof. Jorge Júlvez
+        - Investigated role of Mycobacterium tuberculosis and macrophage cells in lung cancer development
+        - Employed genome-scale metabolic models using COBRApy for Flux Balance Analysis
+        - Identified potential drug targets by comparing essential reactions in Mtb-infected versus normal macrophage cells
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Research Assistant
+      institution: Jacobs School of Engineering, UC San Diego
+      year: 2019
+      image: ucsd-seal.svg
       description:
+        - Advised by Prof. Maurício de Oliveira & Prof. Jack Silberman
+        - Integrated electronic components to design and fabricate circuit, coupling with Raspberry Pi to build hardware foundation for autonomous vehicle
+        - Installed and configured TensorFlow, OpenCV, and Donkey library, reducing failure rate from 25% to 3% after 20 test runs
+        - Collected and processed 35,000 image data points and implemented deep learning algorithms to train autonomous driving models on GPU clusters
+        - Enabled vehicle to successfully complete 10 indoor and 6 outdoor laps consecutively in full autopilot mode
+        - Applied convolutional neural networks (CNN) on CIFAR-100 dataset to train object detection model, achieving at least 85% accuracy
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Undergraduate Research Assistant
+      institution: Statistical Visual Computing Lab (SVCL), UC San Diego
+      year: 2017 - 2019
+      image: ucsd-seal.svg
+      description:
+        - Advised by Prof. Nuno Vasconcelos
+        - Developed deep learning-based plankton image labeling and retrieval system
+        - Implemented data augmentation using Keras and TensorFlow, expanding dataset 2x
+        - Applied transfer learning using ResNet-50, improving classification accuracy from 65% to 90%
+        - Accelerated plankton image labeling by factor of 10, processing 1 billion images
 
-- title: Open Source Projects
+    - title: Undergraduate Research Assistant
+      institution: Xu Research Group, UC San Diego
+      year: 2017 - 2018
+      image: ucsd-seal.svg
+      description:
+        - Advised by Prof. Sheng Xu
+        - Fabricated conformal ultrasonic probe using stretchable circuit patterning
+        - Simulated ultrasound beam pattern using MATLAB and TAC_GUI toolbox
+        - Contributed to publication in Nature Biomedical Engineering
+
+    - title: Control System Project Lead
+      institution: Jacobs School of Engineering, UC San Diego
+      year: 2018
+      image: ucsd-seal.svg
+      description:
+        - Supervised by Executive Director Alex Phan, Department of Mechanical and Aerospace Engineering
+        - Designed three-level vending machine using SolidWorks, incorporating 3D-printed delivery trays, spiral ejectors, product selection buttons, and laser-cut plywood and acrylic
+        - Programmed vending machine's control algorithm using NI myDAQ and LabVIEW, achieving instantaneous response
+        - Awarded Most Reliable Device and earned LabVIEW Associate Developer Certificate from National Instruments
+
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: DICT (Data, Information, Communication, Technology) Project Solution Team Lead
+      institution: China Mobile Yunnan Co., Ltd.
+      year: 2024 - 2025
+      image: China_Mobile.png
+      description:
+        - Led large-scale digital health initiatives across Yunnan Province
+        - Collaborated with technical teams to implement Electronic Health Records (EHR) system for The First Affiliated Hospital of Kunming Medical University
+        - Increased project delivery rate from 75% to 90% through refined schedule management
+        - Promoted Internet Hospital of Yunnan Province on China Mobile Cloud, reducing initial costs for small medical institutions by 55%
 
-- title: Honors and Awards
+    - title: DICT Project Solution Manager, Healthcare Informatics Division
+      institution: China Mobile Yunnan Co., Ltd. Kunming Branch
+      year: 2019 - 2024
+      image: China_Mobile.png
+      description:
+        - Conducted customer analysis and demand investigation for informationization projects
+        - Managed 5 projects valued at 21 million yuan, ensuring timely delivery
+        - Led system design for VPDN Medical Insurance Account Management Software, improving delivery efficiency by 15%
+        - Obtained Computer Software Copyright Registration Certificate from China
+        - Completed Kunming Fangcang Shelter Hospital Medical Data Transmission Network Project 10 days ahead of schedule
+
+    - title: Student Police Aid
+      institution: Foothill-De Anza Community College District Police
+      year: 2015 - 2016
+      image: 33656.png
+      description:
+        - Dispatched student police and conducted campus patrols
+        - Managed building access and campus safety
+
+- title: Volunteer Experience
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Lab Assistant
+      institution: Jacobs School Student Project Spaces, UC San Diego
+      year: 2018
+      image: ucsd-seal.svg
+      description:
+        - Managed and maintained lab equipment for student projects
+        - Provided assistance and guidance on equipment usage
 
-- title: Academic Interests
-  type: nested_list
+    - title: Emergency Department Volunteer
+      institution: El Camino Hospital, Los Gatos, CA
+      year: 2014
+      image: icon.png
+      description:
+        - Assisted ER nurses in preparing emergency rooms
+        - Maintained medical supply levels for patient care
+
+- title: Publications
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - year: 2018
+      image: ultrasonic.png
+      items: Wang C, Li X, Hu H, Zhang L, Huang Z, Lin M, Zhang Z, <strong>Yin Z</strong>, et al. "Monitoring of the central blood pressure waveform via a conformal ultrasonic device." <em>Nature Biomedical Engineering</em>, 2(9), 687-695. doi 10.1038/s41551-018-0287-x
 
-- title: Other Interests
+- title: Patents and Intellectual Property
+  type: time_table
+  contents:
+    - year: 2023
+      image: WechatIMG678.jpg
+      items:
+        - China Mobile VPDN Management System [VPDN Management System] Y1.0. Software Copyright Registration No. 2023SR0247197, National Copyright Administration of the People's Republic of China
+
+- title: Conferences
+  type: time_table
+  contents:
+    - year: 2024
+      image: zhanfang.png
+      items:
+        - <strong>Oral Presentation, Co-Author</strong> "Construction of a Hospital-wide Critical Illness Rescue Network Based on 5G for Severe Illness Early Warning Platform." 30 finalists in 5G+ Healthcare Special Competition Finals, The 7th "Blooming Cup" 5G Application Competition
+
+- title: Certificates
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Human Research Biomedical Researcher - Stage 1, CITI
+        - Biomedical Responsible Conduct of Research, CITI
+        - GCP - Social and Behavioral Research Best Practices for Clinical Research, CITI
+    - year: 2024
+      items:
+        - AI for Medical Treatment (DeepLearning.AI), Coursera
+        - AI for Medical Prognosis (DeepLearning.AI), Coursera
+        - AI for Medical Diagnosis (DeepLearning.AI), Coursera
+    - year: 2020
+      items:
+        - Qualification of Telecommunication Professional, Ministry of Human Resources and Social Security & Ministry of Industry and Information Technology, China
+    - year: 2018
+      items:
+        - Certified LabVIEW Associate Developer (CLAD), National Instruments
+
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <strong>Programming Languages:</strong> Python, MATLAB, C, C++, LabVIEW, SQL
+    - <strong>Deep Learning:</strong> PyTorch, TensorFlow, Keras
+    - <strong>Libraries:</strong> NumPy, Pandas, Scikit-Learn, Seaborn, COBRApy
+    - <strong>Tools & Technologies:</strong> Git, Linux, Cloud Computing
+    - <strong>Domain Knowledge:</strong> Artificial Intelligence, Medical Imaging, Signal Processing, Healthcare Informatics
+

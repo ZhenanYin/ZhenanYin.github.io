@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      The Connection Between Mycobacterium Tuberculosis and Macrophage Cells in Lung Cancer Progression | Zhenan Yin
+    
+  
+</title>
+<meta name="author" content="Zhenan Yin">
+<meta name="description" content="An exploratory study for investigating how Mycobacterium tuberculosis influences macrophage metabolism and contributes to lung cancer development through genome-scale metabolic modeling.">
+
+  <meta name="keywords" content="Biomedical Informatics, Medical AI, Artificial Intelligence, Multimodal Learning">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%92%A1&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://localhost:4000/projects/macropage/">
+
+
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Zhenan</span>
+            
+            
+            Yin
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="/projects/">Projects
+                    
+                      <span class="sr-only">(current)</span>
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/publications/">Publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/happy-paws/">Happy Paws
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">The Connection Between Mycobacterium Tuberculosis and Macrophage Cells in Lung Cancer Progression</h1>
+    <p class="post-description">An exploratory study for investigating how Mycobacterium tuberculosis influences macrophage metabolism and contributes to lung cancer development through genome-scale metabolic modeling.</p>
+  </header>
+
+  <article>
+    <h2 id="overview">Overview</h2>
+
+<p>This project presents an exploratory systems biology investigation into how <em>Mycobacterium tuberculosis</em> (Mtb) infection perturbs macrophage metabolism and contributes to lung cancer progression. The study was conducted under the supervision of Dr. Bridget Bannerman (Department of Medicine and Biochemistry, University of Cambridge) and Prof. Jorge Júlvez (Information and Communication Technologies, University of Zaragoza) as part of the Online Summer Research Program at Pembroke College, University of Cambridge.</p>
+
+<p><strong>Motivation for the project</strong></p>
+
+<p>Lung cancer remains one of the most fatal malignancies globally, with increasing evidence suggesting a bidirectional association between <em>Mycobacterium tuberculosis</em> infection and tumorigenesis. Chronic Mtb-induced inflammation promotes cellular instability and metabolic reprogramming in macrophages, which may accelerate malignant transformation. Elucidating the metabolic mechanisms underlying Mtb–macrophage interactions offers valuable insight for identifying potential metabolic drug targets to disrupt infection-associated cancer pathways.</p>
+
+<p><strong>Methodology</strong></p>
+<ul>
+  <li>Metabolic Model Reconstruction: Two genome-scale metabolic reconstructions were employed—Bordbar2010 Macrophage Metabolism (<em>iAB-AMØ-1410</em>) and Bordbar2010 M. tuberculosis Macrophage (<em>iAB-AMØ-1410-Mt-661</em>).</li>
+  <li>Computational Framework: Analyses were implemented in COBRApy (Constraint-Based Reconstruction and Analysis in Python) to perform:
+    <ul>
+      <li>Flux Balance Analysis (FBA) for steady-state flux optimization and biomass growth prediction.</li>
+      <li>Flux Variability Analysis (FVA) under default and 90% optimality constraints to evaluate reaction redundancy and flexibility.</li>
+    </ul>
+  </li>
+  <li>Reaction Characterization: Essential, reversible, dead, and fixed reactions were systematically identified through iterative reaction knockout and flux analysis.</li>
+  <li>Drug Target Identification: Essential reaction sets were compared between infected and non-infected models to isolate reactions unique to Mtb infection as candidate drug targets.</li>
+  <li>Medium Minimization: Nutrient dependency was quantified by minimizing exchange reactions to identify substrates critical for optimal biomass generation.</li>
+</ul>
+
+<p><strong>Findings</strong></p>
+
+<p>Computational simulation revealed that the Mtb-infected macrophage model contained 375 essential reactions, compared to 117 in the healthy macrophage model. After eliminating redundant and exchange reactions, 223 unique essential reactions were identified as candidate drug targets. Flux analysis indicated that Mtb infection markedly reduced biomass production rates, underscoring the energetic burden imposed by infection.</p>
+
+<h2 id="key-features">Key Features</h2>
+
+<ul>
+  <li>Genome-scale metabolic modeling integrating host–pathogen co-metabolism.</li>
+  <li>COBRApy-based implementation of FBA and FVA for metabolic flux characterization.</li>
+  <li>Systematic essential reaction screening for identifying infection-specific metabolic dependencies.</li>
+  <li>Quantitative classification of reversible, dead, and fixed reactions under variable flux constraints.</li>
+  <li>Medium minimization to evaluate nutrient essentiality and metabolic bottlenecks.</li>
+</ul>
+
+<h2 id="results">Results</h2>
+
+<ul>
+  <li>Biomass Growth Rate (FBA):
+    <ul>
+      <li>Normal macrophage model: 0.02699 h⁻¹</li>
+      <li>Mtb-infected macrophage model: 0.00210 h⁻¹</li>
+      <li>
+<em>Interpretation</em>: Infection causes a drastic reduction in metabolic efficiency due to increased energy consumption by Mtb.</li>
+    </ul>
+  </li>
+  <li>Essential Reactions:
+    <ul>
+      <li>Normal model: 117 reactions</li>
+      <li>Infected model: 375 reactions</li>
+      <li>Drug target candidates (unique to infected model): 223 reactions</li>
+    </ul>
+  </li>
+  <li>Reaction Classification (Mtb-infected model):
+    <ul>
+      <li>Reversible: 1365 → 343 → 445 (default → FVA → FVA at 90%)</li>
+      <li>Dead: 63 → 1426 → 1949</li>
+      <li>Fixed: 63 → 1426 → 1951</li>
+    </ul>
+  </li>
+  <li>Medium Minimization Results:
+    <ul>
+      <li>Nineteen limiting exchange reactions were identified, with glucose (EX_glc) and glutamine (EX_gln) proving essential. Blocking either flux reduced biomass growth to near zero, confirming their critical role in sustaining infected macrophage metabolism.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="overall-conclusion">Overall Conclusion</h2>
+
+<p>This study provides a computational framework to elucidate how <em>M. tuberculosis</em> infection reconfigures macrophage metabolism and identifies infection-specific essential reactions as potential therapeutic targets. The combined use of COBRApy-based FBA/FVA, essential reaction mapping, and medium optimization establishes a reproducible pipeline for probing host–pathogen metabolic interactions. These findings advance the mechanistic understanding of Mtb-driven metabolic dysregulation and offer a foundation for targeted drug discovery aimed at mitigating Mtb-associated lung carcinogenesis.</p>
+
+  </article>
+
+  
+
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+
+
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      
+  © Copyright 2025
+  Zhenan
+  
+  Yin. Built with Jekyll and al-folio theme.
+
+  
+  
+
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+<!-- Badges -->
+
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+
+  <!-- MathJax -->
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+  
+    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <!-- Scrolling Progress Bar -->
+  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+
+
+
+
+
+
+
+  <!-- Back to Top -->
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+
+  <!-- Search -->
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-data.js"></script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+
+
+  </body>
+</html>
