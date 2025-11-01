@@ -28,7 +28,7 @@
         - Research Assistant in Statistical Visual Computing Lab, advised by Prof. Nuno Vasconcelos
         - Research Assistant in Xu Research Group, advised by Prof. Sheng Xu
 
-    - title: Liberal Arts (Science, Math, and Engineering Emphasis)
+    - title: Undergraduate Coursework in Science, Math, and Engineering
       institution: De Anza College, Cupertino, CA, USA
       year: 2013 - 2016
       image: 33656.png
@@ -52,9 +52,10 @@
       image: Pembroke.png
       description:
         - Advised by Dr. Bridget Bannerman & Prof. Jorge Júlvez
-        - Investigated role of Mycobacterium tuberculosis and macrophage cells in lung cancer development
-        - Employed genome-scale metabolic models using COBRApy for Flux Balance Analysis
-        - Identified potential drug targets by comparing essential reactions in Mtb-infected versus normal macrophage cells
+        - Conducted systems biology modeling to investigate how Mycobacterium tuberculosis infection alters macrophage metabolism and contributes to lung cancer progression.
+        - Implemented genome-scale metabolic models (iAB-AMØ-1410, iAB-AMØ-1410-Mt-661) in COBRApy to perform Flux Balance and Flux Variability Analyses for host–pathogen interaction mapping.
+        - Identified 223 infection-specific essential reactions and quantified nutrient dependencies through medium minimization to reveal candidate metabolic drug targets.
+        - Simulated infection-induced metabolic burden, showing a 92% reduction in macrophage biomass growth rate due to Mtb-driven energetic constraints.
 
     - title: Undergraduate Research Assistant
       institution: Jacobs School of Engineering, UC San Diego
@@ -62,11 +63,10 @@
       image: ucsd-seal.svg
       description:
         - Advised by Prof. Maurício de Oliveira & Prof. Jack Silberman
-        - Integrated electronic components to design and fabricate circuit, coupling with Raspberry Pi to build hardware foundation for autonomous vehicle
-        - Installed and configured TensorFlow, OpenCV, and Donkey library, reducing failure rate from 25% to 3% after 20 test runs
-        - Collected and processed 35,000 image data points and implemented deep learning algorithms to train autonomous driving models on GPU clusters
-        - Enabled vehicle to successfully complete 10 indoor and 6 outdoor laps consecutively in full autopilot mode
-        - Applied convolutional neural networks (CNN) on CIFAR-100 dataset to train object detection model, achieving at least 85% accuracy
+        - Designed and implemented a deep learning-driven autonomous vehicle capable of real-time navigation and object detection using Raspberry Pi, TensorFlow, OpenCV, and the DonkeyCar framework.
+        - Collected and processed over 35,000 images frames to train convolutional neural networks (CNNs) for lane detection, steering prediction, and obstacle avoidance.
+        - Integrated electronic control modules, motor drivers, and sensors to build a reliable embedded platform with sub-150 ms inference latency.
+        - Reduced vehicle failure rate from 25% to 3% through iterative testing and model optimization, achieving fully autonomous operation across 10 indoor and 6 outdoor laps.
 
     - title: Undergraduate Research Assistant
       institution: Statistical Visual Computing Lab (SVCL), UC San Diego
@@ -74,10 +74,10 @@
       image: ucsd-seal.svg
       description:
         - Advised by Prof. Nuno Vasconcelos
-        - Developed deep learning-based plankton image labeling and retrieval system
-        - Implemented data augmentation using Keras and TensorFlow, expanding dataset 2x
-        - Applied transfer learning using ResNet-50, improving classification accuracy from 65% to 90%
-        - Accelerated plankton image labeling by factor of 10, processing 1 billion images
+        - Developed a deep learning-based system for automated plankton image labeling and retrieval to support ecological research at the Scripps Institute of Oceanography.
+        - Applied transfer learning with ResNet-50 and InceptionResNetV2 models and integrated Approximate Nearest Neighbor (ANN) search for large-scale image similarity retrieval.
+        - Built a prototype web interface for visualizing search results and accelerating image annotation.
+        - Expanded dataset diversity through data augmentation using Keras and TensorFlow, increasing classification accuracy to 90% for fine-grained plankton species.
 
     - title: Undergraduate Research Assistant
       institution: Xu Research Group, UC San Diego
@@ -85,19 +85,22 @@
       image: ucsd-seal.svg
       description:
         - Advised by Prof. Sheng Xu
-        - Fabricated conformal ultrasonic probe using stretchable circuit patterning
-        - Simulated ultrasound beam pattern using MATLAB and TAC_GUI toolbox
-        - Contributed to publication in Nature Biomedical Engineering
+        - Fabricated a stretchable conformal ultrasonic probe using laser micro-cutting and soft elastomer encapsulation for non-invasive cardiovascular monitoring.
+        - Simulated ultrasound beam patterns and penetration depth in MATLAB and compared predicted and experimental results to validate transducer performance.
+        - Analyzed device stability and acoustic coupling under mechanical deformation to ensure signal fidelity during motion.
+        - Prepared IRB documentation and risk assessments for human-subject testing of the device.
+        - Contributed to the publication “Monitoring of the Central Blood Pressure Waveform via a Conformal Ultrasonic Device” (Nature Biomedical Engineering, 2018).
 
-    - title: Control System Project Lead
+    - title: Automated Vending Machine Control System Engineer
       institution: Jacobs School of Engineering, UC San Diego
       year: 2018
       image: ucsd-seal.svg
       description:
         - Supervised by Executive Director Alex Phan, Department of Mechanical and Aerospace Engineering
-        - Designed three-level vending machine using SolidWorks, incorporating 3D-printed delivery trays, spiral ejectors, product selection buttons, and laser-cut plywood and acrylic
-        - Programmed vending machine's control algorithm using NI myDAQ and LabVIEW, achieving instantaneous response
-        - Awarded Most Reliable Device and earned LabVIEW Associate Developer Certificate from National Instruments
+        - Designed a three-level automated vending machine using SolidWorks, integrating 3D-printed trays, spiral ejectors, and a laser-cut acrylic structure.
+        - Programmed and optimized the control algorithm with NI myDAQ and LabVIEW for instantaneous product dispensing and fault-free operation.
+        - Led system integration and testing to ensure mechanical reliability and real-time control performance.
+        - Recognized with the Most Reliable Device Award and earned the LabVIEW Associate Developer Certificate from National Instruments.
 
 - title: Professional Experience
   type: time_table
@@ -107,29 +110,30 @@
       year: 2024 - 2025
       image: China_Mobile.png
       description:
-        - Led large-scale digital health initiatives across Yunnan Province
-        - Collaborated with technical teams to implement Electronic Health Records (EHR) system for The First Affiliated Hospital of Kunming Medical University
-        - Increased project delivery rate from 75% to 90% through refined schedule management
-        - Promoted Internet Hospital of Yunnan Province on China Mobile Cloud, reducing initial costs for small medical institutions by 55%
+        - Managed 5+ concurrent healthcare IT implementation projects, coordinating between China Mobile technical teams, hospital administrators, and third-party system vendors across Yunnan Province.
+        - Led EHR system integration project at The First Affiliated Hospital of Kunming Medical University, managing vendor coordination, timeline planning, and interoperability requirements to ensure clinical data continuity.
+        - Increased project delivery efficiency from 75% to 90% by introducing milestone-based schedule tracking, risk forecasting, and performance optimization frameworks.
+        - Collaborated with top-tier hospital information system enterprises to establish the Internet Hospital of Yunnan Province on China Mobile Cloud, cutting onboarding costs for smaller medical institutions by 55%.
+        - Oversaw solution design and policy compliance for ongoing regional telemedicine and Internet Hospital projects, aligning implementation with national eHealth standards.
 
     - title: DICT Project Solution Manager, Healthcare Informatics Division
       institution: China Mobile Yunnan Co., Ltd. Kunming Branch
       year: 2019 - 2024
       image: China_Mobile.png
       description:
-        - Conducted customer analysis and demand investigation for informationization projects
-        - Managed 5 projects valued at 21 million yuan, ensuring timely delivery
-        - Led system design for VPDN Medical Insurance Account Management Software, improving delivery efficiency by 15%
-        - Obtained Computer Software Copyright Registration Certificate from China
-        - Completed Kunming Fangcang Shelter Hospital Medical Data Transmission Network Project 10 days ahead of schedule
+        - Spearheaded healthcare digital transformation initiatives under China Mobile’s DICT strategy, managing full project lifecycles from requirements definition to post-deployment evaluation.
+        - Delivered large-scale healthcare informationization projects valued at 21 million Chinese Yuan by aligning multidisciplinary teams, controlling schedules, and mitigating implementation risks.
+        - Architected and led the design of VPDN Medical Insurance Account Management Software, developing functional prototypes and technical specifications that improved project delivery efficiency by 15% and obtained national software copyright certification.
+        - Directed the Kunming Fangcang Shelter Hospital Medical Data Transmission Network Project, achieving completion 10 days ahead of schedule and reducing labor costs by 8% through optimized resource planning during the COVID-19 response.
 
     - title: Student Police Aid
       institution: Foothill-De Anza Community College District Police
       year: 2015 - 2016
       image: 33656.png
       description:
-        - Dispatched student police and conducted campus patrols
-        - Managed building access and campus safety
+        - Dispatched student patrols, managed campus access, and ensured facility security.
+        - Assisted with fingerprinting and onboarding for new faculty and staff.
+        - Supported event logistics, including parking and crowd management for campus activities.
 
 - title: Volunteer Experience
   type: time_table
@@ -147,8 +151,8 @@
       year: 2014
       image: icon.png
       description:
-        - Assisted ER nurses in preparing emergency rooms
-        - Maintained medical supply levels for patient care
+        - Assisted ER nurses in preparing rooms and equipment for incoming patients.
+        - Monitored and replenished medical supply inventories to ensure readiness for emergency care.
 
 - title: Publications
   type: time_table
@@ -199,6 +203,6 @@
     - <strong>Programming Languages:</strong> Python, MATLAB, C, C++, LabVIEW, SQL
     - <strong>Deep Learning:</strong> PyTorch, TensorFlow, Keras
     - <strong>Libraries:</strong> NumPy, Pandas, Scikit-Learn, Seaborn, COBRApy
-    - <strong>Tools & Technologies:</strong> Git, Linux, Cloud Computing
+    - <strong>Tools & Technologies:</strong> Git, Linux
     - <strong>Domain Knowledge:</strong> Artificial Intelligence, Medical Imaging, Signal Processing, Healthcare Informatics
 
