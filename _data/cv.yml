@@ -11,13 +11,13 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Health and Biomedical Informatics
+    - title: PhD in Informatics (Health & Biomedical Informatics)
       institution: Indiana University Indianapolis, IN, USA
       year: 2025 - Present
       image: Indiana_Hoosiers_logo.svg
       description:
-        - Advisor Dr. Saptarshi Purkayastha, Purkayastha Lab for Health Innovation 
-        - Research focus on Medical AI, Multimodal Learning, and Medical Signal Processing
+        - 'Advisor: Dr. Saptarshi Purkayastha, Purkayastha Lab for Health Innovation'
+        - Research focus on multimodal clinical AI, medical image analysis, and clinical decision support
 
     - title: Bachelor of Science in Electrical Engineering
       institution: University of California, San Diego, CA, USA
@@ -28,23 +28,58 @@
         - Research Assistant in Statistical Visual Computing Lab, advised by Prof. Nuno Vasconcelos
         - Research Assistant in Xu Research Group, advised by Prof. Sheng Xu
 
-    - title: Undergraduate Coursework in Science, Math, and Engineering
-      institution: De Anza College, Cupertino, CA, USA
-      year: 2013 - 2016
-      image: 33656.png
-
 - title: Research Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
-      institution: Purkayastha Lab for Health Innovation (PLHI), Indiana University Indianapolis
-      year: 2025 - Present
+    - title: Tri-Modal Fusion for Parkinson's Disease Motor Phenotype Classification
+      institution: Indiana University Indianapolis
+      year: 2026 - Present
       image: Indiana_Hoosiers_logo.svg
       description:
-        - Advised by Prof. Saptarshi Purkayastha
-        - Embeddings are Noise Eliminators - Ablation Studies to Show What is Eliminated in Foundation Models
-        - Multimodal Model for Activity Recognition in Parkinson's and Non-Parkinson's Individuals Using Biological Sensors
-        - CrossSeizure - Learning Generalizable Representations for Cross-Dataset Epileptic Seizure Classification
+        - Developed a hierarchical multimodal pipeline to classify 130 participants into Healthy Control, Tremor-Dominant PD, Intermediate PD, and PIGD PD using resting EEG, walking EEG, and clinical features derived from MDS-UPDRS Part III TD/PIGD ratios.
+        - Built a two-stage architecture combining an XGBoost HC-vs-PD gate, EEGNet-Transformer rest/walk encoders, bidirectional EEG cross-attention, and clinical XGBoost soft fusion for within-PD subtype classification.
+        - 'Improved 4-class LOGO macro-F1 by approximately +0.10 over flat trimodal cross-attention; validated with LOSO/LOGO evaluation, multi-seed robustness testing, bootstrap 95% CIs, and Wilcoxon signed-rank tests.'
+        - 'Achieved 0.56 ± 0.02 macro-F1, 0.98 ± 0.01 HC-vs-PD gate AUC, and 0.43 ± 0.02 PD-only 3-class F1; used SHAP TreeExplainer to identify Color Trails Test and MoCA as dominant within-PD predictors.'
+
+    - title: 'TriageGuard: LLM-Driven Continuous Security Testing for Open-Source EHRs'
+      institution: Indiana University Indianapolis
+      year: 2026 - Present
+      image: Indiana_Hoosiers_logo.svg
+      description:
+        - Developed TriageGuard, a PR-triggered OpenMRS security-testing pipeline that converts code diffs into executable Gherkin/Playwright tests and validates them against a Dockerized OpenMRS instance through GitHub Actions CI.
+        - Built a dual-LLM safety gate using Qwen-3-32B generation, GPT-OSS-120B review, SBERT semantic verification, and 13-condition approval logic to block unsafe AI-generated tests before execution.
+        - 'Integrated CodeQL static analysis with 4 custom queries covering unprotected methods, privilege annotations, HTTP entry points, and caller chains; grounded test generation with an 8-profile Gherkin scenario library.'
+        - 'Operationalized CVSS 4.0 risk-band scoring and a 4-signal composite risk model combining evidence density, OWASP pattern matching, CodeQL corroboration, and model self-reporting, with SHA-256 provenance for every LLM call.'
+
+    - title: Multimodal EEG-IMU Fusion for Robust Motor Assessment
+      institution: Indiana University Indianapolis
+      year: 2025 - 2026
+      image: Indiana_Hoosiers_logo.svg
+      description:
+        - Developed a multimodal motor-assessment framework integrating 16-channel EEG and wrist-worn IMU signals across 10 motor activities to evaluate neural and kinematic modality complementarity.
+        - 'Implemented an EEGNet-Transformer model (~230K parameters) and a feature-engineered XGBoost IMU pipeline using 76 features per sensor across time-domain, frequency-domain, and 3D composite groups.'
+        - 'Achieved 98.68 ± 0.32% activity-classification accuracy through logistic-regression late fusion, reducing EEG-only error by 81.5% and improving worst-task accuracy from ~87% to 96.76%.'
+        - First-author paper accepted and presented at IEEE ICHI 2026.
+
+    - title: Human-Guided Agentic AI for Multimodal Clinical Prediction
+      institution: Indiana University Indianapolis
+      year: 2025 - 2026
+      image: Indiana_Hoosiers_logo.svg
+      description:
+        - 'Contributed to an AgentDS Healthcare benchmark submission; placed 5th overall in the healthcare domain and 3rd on discharge-readiness prediction.'
+        - 'Led 30-day readmission prediction across 5,000 admissions, engineering 871 structured-EHR and discharge-note features from admission records, demographics, 5-year ED cost history, and trigram TF-IDF notes.'
+        - 'Built a 5-base-model stacking ensemble using 3 XGBoost variants, L1/L2 logistic regression, and 8-fold out-of-fold meta-learning; achieved test Macro-F1 = 0.8986, within 0.006 of the top-ranked system.'
+        - Co-author paper accepted and presented at IEEE ICHI 2026.
+
+    - title: Frozen Foundation-Model Embeddings for Small-Lesion CXR Analysis
+      institution: Indiana University Indianapolis
+      year: 2025 - 2026
+      image: Indiana_Hoosiers_logo.svg
+      description:
+        - Co-investigated preservation of small-scale diagnostic signal in frozen ViT foundation-model embeddings for chest radiography across 5 frozen models evaluated on NIH-CXR14, MIMIC-CXR, Emory-CXR, and ChestX-Det10 cohorts.
+        - 'Evaluated 492,724 chest radiographs and 3,543 ChestX-Det10 images with 1,462 lesion boxes across calcification, nodule, and mass categories.'
+        - 'Demonstrated CLS pooling collapses small-scale signal to chance-level AUC = 0.500–0.524, while ROI-conditioned patch tokens recover ~AUC = 1.0 with mean per-model gains of +0.412 to +0.488.'
+        - Second-author manuscript under review at Medical Image Analysis.
 
     - title: Summer Research Assistant
       institution: Pembroke College, University of Cambridge, UK
@@ -53,7 +88,7 @@
       description:
         - Advised by Dr. Bridget Bannerman & Prof. Jorge Júlvez
         - Conducted systems biology modeling to investigate how Mycobacterium tuberculosis infection alters macrophage metabolism and contributes to lung cancer progression.
-        - Implemented genome-scale metabolic models (iAB-AMØ-1410, iAB-AMØ-1410-Mt-661) in COBRApy to perform Flux Balance and Flux Variability Analyses for host–pathogen interaction mapping.
+        - 'Implemented genome-scale metabolic models (iAB-AMØ-1410, iAB-AMØ-1410-Mt-661) in COBRApy to perform Flux Balance and Flux Variability Analyses for host–pathogen interaction mapping.'
         - Identified 223 infection-specific essential reactions and quantified nutrient dependencies through medium minimization to reveal candidate metabolic drug targets.
         - Simulated infection-induced metabolic burden, showing a 92% reduction in macrophage biomass growth rate due to Mtb-driven energetic constraints.
 
@@ -63,10 +98,9 @@
       image: ucsd-seal.svg
       description:
         - Advised by Prof. Maurício de Oliveira & Prof. Jack Silberman
-        - Designed and implemented a deep learning-driven autonomous vehicle capable of real-time navigation and object detection using Raspberry Pi, TensorFlow, OpenCV, and the DonkeyCar framework.
-        - Collected and processed over 35,000 images frames to train convolutional neural networks (CNNs) for lane detection, steering prediction, and obstacle avoidance.
-        - Integrated electronic control modules, motor drivers, and sensors to build a reliable embedded platform with sub-150 ms inference latency.
-        - Reduced vehicle failure rate from 25% to 3% through iterative testing and model optimization, achieving fully autonomous operation across 10 indoor and 6 outdoor laps.
+        - Built a deep-learning autonomous vehicle on Raspberry Pi using TensorFlow, OpenCV, and the DonkeyCar framework for real-time lane detection, steering prediction, and obstacle avoidance with sub-150 ms inference latency.
+        - Curated and trained CNNs on 35,000+ labeled image frames while integrating sensors, motor drivers, and electronic control modules.
+        - Reduced vehicle failure rate from 25% to 3% through iterative testing and model optimization, enabling fully autonomous operation across 10 indoor and 6 outdoor laps.
 
     - title: Undergraduate Research Assistant
       institution: Statistical Visual Computing Lab (SVCL), UC San Diego
@@ -74,10 +108,9 @@
       image: ucsd-seal.svg
       description:
         - Advised by Prof. Nuno Vasconcelos
-        - Developed a deep learning-based system for automated plankton image labeling and retrieval to support ecological research at the Scripps Institute of Oceanography.
-        - Applied transfer learning with ResNet-50 and InceptionResNetV2 models and integrated Approximate Nearest Neighbor (ANN) search for large-scale image similarity retrieval.
-        - Built a prototype web interface for visualizing search results and accelerating image annotation.
-        - Expanded dataset diversity through data augmentation using Keras and TensorFlow, increasing classification accuracy to 90% for fine-grained plankton species.
+        - Developed a deep learning-based system for automated plankton image labeling and retrieval to support ecological research at the Scripps Institution of Oceanography.
+        - Applied transfer learning with ResNet-50 and InceptionResNetV2 and integrated Approximate Nearest Neighbor (ANN) search for large-scale image similarity retrieval.
+        - Boosted fine-grained plankton classification accuracy to 90% through targeted data augmentation strategies.
 
     - title: Undergraduate Research Assistant
       institution: Xu Research Group, UC San Diego
@@ -86,77 +119,42 @@
       description:
         - Advised by Prof. Sheng Xu
         - Fabricated a stretchable conformal ultrasonic probe using laser micro-cutting and soft elastomer encapsulation for non-invasive cardiovascular monitoring.
-        - Simulated ultrasound beam patterns and penetration depth in MATLAB and compared predicted and experimental results to validate transducer performance.
-        - Analyzed device stability and acoustic coupling under mechanical deformation to ensure signal fidelity during motion.
-        - Prepared IRB documentation and risk assessments for human-subject testing of the device.
-        - Contributed to the publication “Monitoring of the Central Blood Pressure Waveform via a Conformal Ultrasonic Device” (Nature Biomedical Engineering, 2018).
-
-    - title: Automated Vending Machine Control System Engineer
-      institution: Jacobs School of Engineering, UC San Diego
-      year: 2018
-      image: ucsd-seal.svg
-      description:
-        - Supervised by Executive Director Alex Phan, Department of Mechanical and Aerospace Engineering
-        - Designed a three-level automated vending machine using SolidWorks, integrating 3D-printed trays, spiral ejectors, and a laser-cut acrylic structure.
-        - Programmed and optimized the control algorithm with NI myDAQ and LabVIEW for instantaneous product dispensing and fault-free operation.
-        - Led system integration and testing to ensure mechanical reliability and real-time control performance.
-        - Recognized with the Most Reliable Device Award and earned the LabVIEW Associate Developer Certificate from National Instruments.
+        - Modeled ultrasound beam patterns and penetration depth in MATLAB, validating simulation results against experimental measurements.
+        - Evaluated device stability and acoustic coupling under mechanical deformation to support signal fidelity during motion.
+        - Prepared IRB documentation and risk assessments for human-subject testing.
+        - Contributed to the resulting Nature Biomedical Engineering publication (2018).
 
 - title: Professional Experience
   type: time_table
   contents:
-    - title: DICT (Data, Information, Communication, Technology) Project Solution Team Lead
+    - title: Healthcare IT Solution Team Lead
       institution: China Mobile Yunnan Co., Ltd.
       year: 2024 - 2025
       image: China_Mobile.png
       description:
-        - Managed 5+ concurrent healthcare IT implementation projects, coordinating between China Mobile technical teams, hospital administrators, and third-party system vendors across Yunnan Province.
-        - Led EHR system integration project at The First Affiliated Hospital of Kunming Medical University, managing vendor coordination, timeline planning, and interoperability requirements to ensure clinical data continuity.
-        - Increased project delivery efficiency from 75% to 90% by introducing milestone-based schedule tracking, risk forecasting, and performance optimization frameworks.
-        - Collaborated with top-tier hospital information system enterprises to establish the Internet Hospital of Yunnan Province on China Mobile Cloud, cutting onboarding costs for smaller medical institutions by 55%.
-        - Oversaw solution design and policy compliance for ongoing regional telemedicine and Internet Hospital projects, aligning implementation with national eHealth standards.
+        - Led 5+ concurrent healthcare IT implementation projects across Yunnan Province, coordinating engineering teams, hospital administrators, and third-party vendors.
+        - Directed EHR system integration for client hospitals, aligning data interoperability, implementation continuity, and clinical workflow requirements.
+        - Improved project delivery rate from 75% to 90% by introducing milestone tracking, risk forecasting, and performance-monitoring workflows.
+        - Supported design and deployment of regional telemedicine and Internet Hospital platforms on China Mobile Cloud, reducing onboarding costs for smaller healthcare institutions by 55%.
 
-    - title: DICT Project Solution Manager, Healthcare Informatics Division
-      institution: China Mobile Yunnan Co., Ltd. Kunming Branch
+    - title: Healthcare IT Project Solution Manager
+      institution: 'China Mobile Yunnan Co., Ltd., Kunming Branch'
       year: 2019 - 2024
       image: China_Mobile.png
       description:
-        - Spearheaded healthcare digital transformation initiatives under China Mobile’s DICT strategy, managing full project lifecycles from requirements definition to post-deployment evaluation.
-        - Delivered large-scale healthcare informationization projects valued at 21 million Chinese Yuan by aligning multidisciplinary teams, controlling schedules, and mitigating implementation risks.
-        - Architected and led the design of VPDN Medical Insurance Account Management Software, developing functional prototypes and technical specifications that improved project delivery efficiency by 15% and obtained national software copyright certification.
-        - Directed the Kunming Fangcang Shelter Hospital Medical Data Transmission Network Project, achieving completion 10 days ahead of schedule and reducing labor costs by 8% through optimized resource planning during the COVID-19 response.
-
-    - title: Student Police Aid
-      institution: Foothill-De Anza Community College District Police
-      year: 2015 - 2016
-      image: 33656.png
-      description:
-        - Dispatched student patrols, managed campus access, and ensured facility security.
-        - Assisted with fingerprinting and onboarding for new faculty and staff.
-        - Supported event logistics, including parking and crowd management for campus activities.
-
-- title: Volunteer Experience
-  type: time_table
-  contents:
-    - title: Lab Assistant
-      institution: Jacobs School Student Project Spaces, UC San Diego
-      year: 2018
-      image: ucsd-seal.svg
-      description:
-        - Managed and maintained lab equipment for student projects
-        - Provided assistance and guidance on equipment usage
-
-    - title: Emergency Department Volunteer
-      institution: El Camino Hospital, Los Gatos, CA
-      year: 2014
-      image: icon.png
-      description:
-        - Assisted ER nurses in preparing rooms and equipment for incoming patients.
-        - Monitored and replenished medical supply inventories to ensure readiness for emergency care.
+        - Managed end-to-end delivery of large-scale healthcare digital transformation projects totaling 21 million CNY, spanning medical networks, healthcare data platforms, and clinical information systems.
+        - 'Designed the VPDN Medical Insurance Account Management System; produced technical specifications and functional prototypes that improved delivery efficiency by 15% and achieved national software copyright certification.'
+        - Led deployment of the Fangcang Shelter Hospital medical data transmission network during the COVID-19 response, completing implementation 10 days ahead of schedule while reducing labor costs by 8%.
+        - Collaborated with hospitals, insurers, and telecom engineering teams to deliver secure, high-availability medical data transmission infrastructure.
 
 - title: Publications
   type: time_table
   contents:
+    - year: 2026
+      image: eeg_imu.png
+      items:
+        - '<strong>Yin Z</strong>, Pulavarthy LP, Purkayastha S. "Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness." <em>IEEE International Conference on Healthcare Informatics (ICHI)</em>, 2026.'
+        - 'Pulavarthy LP, Muthyala R, Kuruvikkattil AV, <strong>Yin Z</strong>, Kudamala R, Purkayastha S. "Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare Benchmark." <em>IEEE ICHI</em>, 2026.'
     - year: 2018
       image: ultrasonic.png
       items: Wang C, Li X, Hu H, Zhang L, Huang Z, Lin M, Zhang Z, <strong>Yin Z</strong>, et al. "Monitoring of the central blood pressure waveform via a conformal ultrasonic device." <em>Nature Biomedical Engineering</em>, 2(9), 687-695. doi 10.1038/s41551-018-0287-x
@@ -167,32 +165,33 @@
     - year: 2023
       image: WechatIMG678.jpg
       items:
-        - China Mobile VPDN Management System [VPDN Management System] Y1.0. Software Copyright Registration No. 2023SR0247197, National Copyright Administration of the People's Republic of China
+        - 'China Mobile VPDN Management System. National Software Copyright Registration, China. Certificate No. 10834368; Registration No. 2023SR0247197.'
 
-- title: Conferences
+- title: Conferences & Presentations
   type: time_table
   contents:
+    - year: 2026
+      image: ICHI.png
+      items:
+        - '<strong>Oral Presentation, First Author.</strong> "Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness." IEEE International Conference on Healthcare Informatics (ICHI), Minneapolis, MN, Jun 2026.'
+        - '<strong>Oral Presentation, Co-Author.</strong> "Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare Benchmark." Data Challenge Program @ IEEE ICHI 2026, Minneapolis, MN, Jun 2026.'
     - year: 2024
       image: zhanfang.png
       items:
-        - <strong>Oral Presentation, Co-Author</strong> "Construction of a Hospital-wide Critical Illness Rescue Network Based on 5G for Severe Illness Early Warning Platform." 30 finalists in 5G+ Healthcare Special Competition Finals, The 7th "Blooming Cup" 5G Application Competition
+        - '<strong>Oral Presentation, Co-Author.</strong> "Construction of a Hospital-wide Critical Illness Rescue Network Based on 5G for Severe Illness Early Warning Platform." 30 Finalists, 5G+ Healthcare Special Competition Finals, The 7th "Blooming Cup" 5G Application Competition.'
 
-- title: Certificates
+- title: Awards & Certifications
   type: time_table
   contents:
     - year: 2025
       items:
+        - University Fellowship, Indiana University
         - Human Research Biomedical Researcher - Stage 1, CITI
         - Biomedical Responsible Conduct of Research, CITI
         - GCP - Social and Behavioral Research Best Practices for Clinical Research, CITI
-    - year: 2024
-      items:
-        - AI for Medical Treatment (DeepLearning.AI), Coursera
-        - AI for Medical Prognosis (DeepLearning.AI), Coursera
-        - AI for Medical Diagnosis (DeepLearning.AI), Coursera
     - year: 2020
       items:
-        - Qualification of Telecommunication Professional, Ministry of Human Resources and Social Security & Ministry of Industry and Information Technology, China
+        - 'Qualification of Telecommunication Professional, Ministry of Human Resources and Social Security & Ministry of Industry and Information Technology, China'
     - year: 2018
       items:
         - Certified LabVIEW Associate Developer (CLAD), National Instruments
@@ -200,9 +199,8 @@
 - title: Technical Skills
   type: list
   contents:
-    - <strong>Programming Languages:</strong> Python, MATLAB, C, C++, LabVIEW, SQL
-    - <strong>Deep Learning:</strong> PyTorch, TensorFlow, Keras
-    - <strong>Libraries:</strong> NumPy, Pandas, Scikit-Learn, Seaborn, COBRApy
-    - <strong>Tools & Technologies:</strong> Git, Linux
-    - <strong>Domain Knowledge:</strong> Artificial Intelligence, Medical Imaging, Signal Processing, Healthcare Informatics
-
+    - '<strong>Programming & Data:</strong> Python, R, MATLAB, SQL, C/C++, NumPy, pandas, LabVIEW'
+    - '<strong>Machine Learning & Deep Learning:</strong> PyTorch, TensorFlow/Keras, scikit-learn, XGBoost, Hugging Face Transformers, CNNs, Vision Transformers, EEGNet, transfer learning, fusion architectures, stacking ensembles'
+    - '<strong>Clinical AI:</strong> Chest radiography foundation models, EHR data processing, EEG/IMU signal processing, ultrasound signal processing, MNE-Python, OpenCV'
+    - '<strong>Evaluation:</strong> LOSO/LOGO cross-validation, nested CV, bootstrap confidence intervals, Wilcoxon tests, SHAP, occlusion analysis, calibration analysis'
+    - '<strong>Engineering & MLOps:</strong> Docker, GitHub Actions, CUDA, Linux, Git, SQLite, Playwright, Pytest-BDD, CodeQL, OpenMRS'
