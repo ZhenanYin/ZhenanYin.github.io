@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Informatics (Health & Biomedical Informatics)
+    - title: PhD in Informatics (Biomedical & Health Informatics)
       institution: Indiana University Indianapolis, IN, USA
       year: 2025 - Present
       image: Indiana_Hoosiers_logo.svg
@@ -31,25 +31,24 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Tri-Modal Fusion for Parkinson's Disease Motor Phenotype Classification
+    - title: Counterfactual Lifestyle Prescription Engine for Metabolic Health
       institution: Indiana University Indianapolis
       year: 2026 - Present
       image: Indiana_Hoosiers_logo.svg
       description:
-        - Developed a hierarchical multimodal pipeline to classify 130 participants into Healthy Control, Tremor-Dominant PD, Intermediate PD, and PIGD PD using resting EEG, walking EEG, and clinical features derived from MDS-UPDRS Part III TD/PIGD ratios.
-        - Built a two-stage architecture combining an XGBoost HC-vs-PD gate, EEGNet-Transformer rest/walk encoders, bidirectional EEG cross-attention, and clinical XGBoost soft fusion for within-PD subtype classification.
-        - 'Improved 4-class LOGO macro-F1 by approximately +0.10 over flat trimodal cross-attention; validated with LOSO/LOGO evaluation, multi-seed robustness testing, bootstrap 95% CIs, and Wilcoxon signed-rank tests.'
-        - 'Achieved 0.56 ± 0.02 macro-F1, 0.98 ± 0.01 HC-vs-PD gate AUC, and 0.43 ± 0.02 PD-only 3-class F1; used SHAP TreeExplainer to identify Color Trails Test and MoCA as dominant within-PD predictors.'
+        - Designing a causal clinical decision support system (CDSS) for Type 2 Diabetes that reframes management from population-level risk forecasting to individualized intervention on the treatment effect of diet, exercise, and environmental factors.
+        - Building a normative representation-learning model that embeds longitudinal CGM and wearable streams into a healthy-cohort latent space and scores each patient's physiological deviation from it.
+        - Adapting time-series causal architectures (causal Transformers) to emulate randomized trials on observational data under time-varying confounding, estimating individual treatment effects (ITE) for counterfactual lifestyle prescriptions.
 
-    - title: 'TriageGuard: LLM-Driven Continuous Security Testing for Open-Source EHRs'
+    - title: 'TriageGuard: Evidence-Grounded Agentic Security Analysis for Open-Source EHRs'
       institution: Indiana University Indianapolis
       year: 2026 - Present
       image: Indiana_Hoosiers_logo.svg
       description:
-        - Developed TriageGuard, a PR-triggered OpenMRS security-testing pipeline that converts code diffs into executable Gherkin/Playwright tests and validates them against a Dockerized OpenMRS instance through GitHub Actions CI.
-        - Built a dual-LLM safety gate using Qwen-3-32B generation, GPT-OSS-120B review, SBERT semantic verification, and 13-condition approval logic to block unsafe AI-generated tests before execution.
-        - 'Integrated CodeQL static analysis with 4 custom queries covering unprotected methods, privilege annotations, HTTP entry points, and caller chains; grounded test generation with an 8-profile Gherkin scenario library.'
-        - 'Operationalized CVSS 4.0 risk-band scoring and a 4-signal composite risk model combining evidence density, OWASP pattern matching, CodeQL corroboration, and model self-reporting, with SHA-256 provenance for every LLM call.'
+        - Developing a human-in-the-loop security analysis pipeline for OpenMRS Core pull requests that freezes four Git states (merge base, current base, PR head, and synthetic merge candidate) to separate author changes, merge impact, and main-branch drift.
+        - Designing evidence-gated generation stages that turn grounded risk hypotheses into Gherkin security scenarios, requiring every claim to cite saved code evidence and revalidating human edits before approval.
+        - Implementing a bounded agent harness with read-only investigation tools, strict turn and evidence budgets, and deterministic offline replay, retaining a one-shot LLM pipeline as an experimental baseline.
+        - Maintaining a test suite spanning evidence integrity, replay determinism, and access containment; extending toward constrained test generation, differential execution, and CVSS 4.0 scoring.
 
     - title: Multimodal EEG-IMU Fusion for Robust Motor Assessment
       institution: Indiana University Indianapolis
@@ -151,13 +150,25 @@
   type: time_table
   contents:
     - year: 2026
-      image: eeg_imu.png
       items:
-        - '<strong>Yin Z</strong>, Pulavarthy LP, Purkayastha S. "Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness." <em>IEEE International Conference on Healthcare Informatics (ICHI)</em>, 2026.'
-        - 'Pulavarthy LP, Muthyala R, Kuruvikkattil AV, <strong>Yin Z</strong>, Kudamala R, Purkayastha S. "Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare Benchmark." <em>IEEE ICHI</em>, 2026.'
+        - '<strong><u>Yin Z</u></strong>, Pulavarthy LP, Purkayastha S. "Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness." <em>2026 IEEE 14th International Conference on Healthcare Informatics (ICHI)</em>, pp. 204–213. doi:10.1109/ICHI69079.2026.00036.'
+        - 'Pulavarthy LP, Muthyala R, Kuruvikkattil AV, <strong><u>Yin Z</u></strong>, Kudamala R, Purkayastha S. "Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare Benchmark." <em>2026 IEEE 14th International Conference on Healthcare Informatics (ICHI)</em>, pp. 1208–1217. doi:10.1109/ICHI69079.2026.00155.'
     - year: 2018
       image: ultrasonic.png
-      items: Wang C, Li X, Hu H, Zhang L, Huang Z, Lin M, Zhang Z, <strong>Yin Z</strong>, et al. "Monitoring of the central blood pressure waveform via a conformal ultrasonic device." <em>Nature Biomedical Engineering</em>, 2(9), 687-695. doi 10.1038/s41551-018-0287-x
+      items: 'Wang C, Li X, Hu H, Zhang L, Huang Z, Lin M, Zhang Z, <strong><u>Yin Z</u></strong>, et al. "Monitoring of the central blood pressure waveform via a conformal ultrasonic device." <em>Nature Biomedical Engineering</em>, 2(9), 687–695. doi:10.1038/s41551-018-0287-x.'
+
+- title: Manuscripts Under Review
+  type: time_table
+  contents:
+    - year: 2027
+      items:
+        - '<strong><u>Yin Z</u></strong>, Purkayastha S, Norman NP, Hochgesang C, Pradeep A, Zou X. "From Reactive to Proactive: A Longitudinal Mixed-Methods Study of Security Transformation in a Critical Open-Source Healthcare Ecosystem." <em>49th IEEE/ACM International Conference on Software Engineering (ICSE)</em>, Research Track. Under review.'
+    - year: 2026
+      items:
+        - 'Muthyala R, <strong><u>Yin Z</u></strong>, Jilla A, Li F, Dapamede T, Khosravi B, Chavoshi M, Gichoya J, Purkayastha S. "Frozen Foundation-Model Embeddings Discard Small-Lesion Signal in Chest Radiography: Implications for Pre-Deployment Evaluation." arXiv:2606.11606. Under review.'
+        - 'Purkayastha S, <strong><u>Yin Z</u></strong>, Pradeep A, Zou X. "The Security Posture of Open-Source Electronic Health Records: A Reproducible Comparative Study." <em>IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)</em>. Under review.'
+        - 'Chen K, Pulavarthy LP, Naliyatthaliyazchayil P, <strong><u>Yin Z</u></strong>, Pathinarupothi RK, Bucher S, Purkayastha S. "Does the Curriculum Match the Literature? LLM-Judged Optimal Transport for Cross-Corpus Alignment." <em>IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)</em>. Under review.'
+        - 'Perumbilly AN, <strong><u>Yin Z</u></strong>, Bucher SL, Purkayastha S. "A Metadata-Driven ETL and Mapping Model for a Multimodal Diabetes Registry in DHIS2." <em>IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)</em>, Abstract. Under review.'
 
 - title: Patents and Intellectual Property
   type: time_table
