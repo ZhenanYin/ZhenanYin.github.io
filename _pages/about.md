@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Health and Biomedical Informatics at Indiana University Indianapolis, advised by [Dr. Saptarshi Purkayastha](https://luddy.indianapolis.iu.edu/about/directory/saptarshi-purkayastha.html).
+I am a PhD student in Biomedical and Health Informatics at Indiana University Indianapolis, advised by [Dr. Saptarshi Purkayastha](https://luddy.indianapolis.iu.edu/about/directory/saptarshi-purkayastha.html).
 
 My research interests lie at the intersection of artificial intelligence and healthcare, with a focus on multimodal learning, medical image analysis, medical data mining, medical LLMs, and clinical AI, with the goal of building systems that support more informed and reliable decision-making.
 
